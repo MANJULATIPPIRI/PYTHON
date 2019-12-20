@@ -34,16 +34,6 @@ print'Transpose of matrix 1'
 print h.T
 D=np.linalg.det(h)
 print 'Determinant of matrix 1'
-a=[24,12,20,1]
-print "array 1",a
-b=[12,34,56]
-print"array 2",b
-i=0
-l=len(b)
-while(i<l):
-	a.append(b[i])
-	i=i+1
-print "array 1 after appending array 2",a
 print D
 I=np.linalg.inv(h)
 print 'Inverse of matrix 1'
